@@ -1,0 +1,81 @@
+#gridContainer {
+  height: 700px;
+}
+
+.options {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+  position: relative;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.dx-datagrid-rowsview .dx-row {
+  &:nth-child(2n) {
+    background-color: #dddddd;
+  }
+}
+
+.dx-datagrid .dx-column-lines > td {
+  border-left: 1px solid black !important;
+  border-right: 1px solid black !important;
+}
+
+.dx-datagrid-borders > .dx-datagrid-filter-panel,
+.dx-datagrid-borders > .dx-datagrid-headers {
+  border-top: 2px solid black !important;
+  border-bottom: 2px solid black !important;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  border-bottom: none !important;
+}
+
+.dx-datagrid-borders .dx-datagrid-rowsview,
+.dx-datagrid-headers + .dx-datagrid-rowsview {
+  border-top: none !important;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row .dx-command-edit .dx-link {
+  color: black;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td, .dx-datagrid-content .dx-datagrid-table .dx-row > tr > td {
+  
+}
+
+.option {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.option-caption {
+  white-space: nowrap;
+  margin: 0 8px;
+}
+
+.option > span {
+  position: relative;
+  margin-right: 10px;
+}
+
+#newRowPositionSelectBox {
+  width: 150px;
+}
+
+#scrollingModeSelectBox {
+  width: 150px;
+}
